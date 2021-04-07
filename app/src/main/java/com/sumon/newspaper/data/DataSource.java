@@ -87,4 +87,27 @@ public class DataSource {
         return dataList;
     }
 
+    public static ArrayList<Newspaper> getDhakaNews(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("দৈনিক গাজীপুর ",R.drawable.dainik_gazipur,"http://dainikgazipur.com/"));
+        dataList.add(new Newspaper("দৈনিক দেশের আলো",R.drawable.desher_alo,"http://dainikdesheralo.com/"));
+        dataList.add(new Newspaper("লাইভ নারায়ণগঞ্জ",R.drawable.live_narayanganj,"http://www.livenarayanganj.com/"));
+        dataList.add(new Newspaper("নিউজ টাঙ্গাইল",R.drawable.news_tangail,"https://www.newstangail.com/"));
+        dataList.add(new Newspaper("আওয়ার নারায়ণগঞ্জ ",R.drawable.our_narayanganj,"https://www.ournarayanganj24.com/"));
+        dataList.add(new Newspaper("রাজবাড়ী নিউজ ২৪ ",R.drawable.rajbari_news24,"https://rajbarinews24.com/"));
+        dataList.add(new Newspaper("আমার বিক্রমপুর",R.drawable.amar_bikrampur,"http://amarbikrampur.com/"));
+        dataList.add(new Newspaper(" শরীয়তপুর বার্তা ",R.drawable.shariatpur_barta,"https://www.shariatpurbarta.com/"));
+        dataList.add(new Newspaper("নরসিংদী টাইম্ ",R.drawable.the_narsingdi_times,"http://narsingditimes.com/"));
+        dataList.add(new Newspaper("মুন্সিগঞ্জের কাগজ ",R.drawable.munshigonjer_kagoj,"https://www.munshigonjerkagoj.com/"));
+
+
+
+
+        return dataList;
+
+
+
+    }
+
 }
