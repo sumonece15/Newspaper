@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Newspaper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dhaka">ঢাকা</string>
+    <string name="chittagong">চট্টগ্রাম</string>
+    <string name="sylhet">সিলেট</string>
+    <string name="barishal">বরিশাল</string>
+    <string name="rajshahi">রাজশাহী</string>
+    <string name="khulna">খুলনা</string>
+    <string name="rangpur">রংপুর</string>
+    <string name="mymensing">ময়মনসিংহ</string>
+</resources>

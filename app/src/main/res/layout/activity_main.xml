@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:tabMode="auto"
+        app:tabGravity="fill"
+        android:visibility="visible"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/black"
+        app:tabTextColor="@color/white"
+        app:tabIndicator="@drawable/tab_background_selected"
+        app:tabIndicatorColor="@color/colorYellow"
+        android:background="@android:color/transparent"
+        app:tabIndicatorGravity="stretch"
+        app:tabIndicatorFullWidth="true"
+        app:tabPaddingStart="25dp"
+        app:tabPaddingEnd="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        app:tabTextAppearance="@style/TabTextAppearance" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
