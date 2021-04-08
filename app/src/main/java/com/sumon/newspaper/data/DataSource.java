@@ -142,6 +142,25 @@ public class DataSource {
 
     }
 
+
+    public static ArrayList<Newspaper> get4() {
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("দৈনিক আজকের ভোলা",R.drawable.dainik_ajker_vola,"http://www.ajkerbhola.com/"));
+        dataList.add(new Newspaper("দৈনিক পিরোজপুর কন্ঠ",R.drawable.pirojpur_kantha,"https://pirojpurkantho.com/"));
+        dataList.add(new Newspaper("বরিশাল বানী",R.drawable.barishal_bani,"https://barisalbani.com/"));
+        dataList.add(new Newspaper("বরিশাল টাইমস",R.drawable.barishal_times,"https://www.barishaltimes.com/"));
+        dataList.add(new Newspaper("ভোরের আলো",R.drawable.vorer_alo,"http://daynikvoreralo.com/"));
+        dataList.add(new Newspaper("আজকের বার্তা",R.drawable.ajker_barta,"https://ajkerbarta.com/"));
+        dataList.add(new Newspaper("আজকের পরিবর্তন",R.drawable.ajker_paribartan,"https://ajkerparibartan.com/"));
+        dataList.add(new Newspaper("পত্রিকা একাত্তর",R.drawable.patrika_ekattor,"https://www.patrika71.com/"));
+        dataList.add(new Newspaper("দৈনিক স্বতঃকন্ঠ",R.drawable.shata_kantha,"https://dainikshatakantha.com/"));
+        dataList.add(new Newspaper("দৈনিক মতবাদ",R.drawable.motobad,"http://dailymatobad.com/"));
+
+        return dataList;
+
+    }
+
     public static ArrayList<Newspaper> get8(){
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
@@ -163,4 +182,4 @@ public class DataSource {
 
 
 
-}
+    }
