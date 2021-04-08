@@ -197,5 +197,23 @@ public class DataSource {
 
     }
 
+    public static ArrayList<Newspaper> get6(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("দৈনিক ময়মনসিংহ প্রতিদিন",R.drawable.dainik_mymensingh_pratidin,"https://dainikmymensinghpratidin.com/"));
+        dataList.add(new Newspaper("ময়মনসিংহ লাইভ",R.drawable.mymensingh_live,"http://mymensinghlive.com/"));
+        dataList.add(new Newspaper("জনপ্রিয়",R.drawable.janaprio,"https://janaprio.com/"));
+        dataList.add(new Newspaper("শেরপুর নিউজ ২৪",R.drawable.sherpur_news24,"https://sherpurnews24.com/"));
+        dataList.add(new Newspaper("শ্যামল বাংলা",R.drawable.shamol_bangla,"https://shamolbangla24.com/"));
+        dataList.add(new Newspaper("শেরপুর টাইমস",R.drawable.sherpur_times,"https://sherpurtimes.com/"));
+        dataList.add(new Newspaper("দৈনিক তথ্যধারা",R.drawable.dainik_totthodhara,"http://dailytathyadhara.com/"));
+        dataList.add(new Newspaper("দৈনিক মোমেনশাহী",R.drawable.momenshahi,"http://www.dailymomenshahi.com/"));
+        dataList.add(new Newspaper("শেরপুর টুডে",R.drawable.sherpur_today,"https://dailybanglarchokh.com/"));
+        dataList.add(new Newspaper("দৈনিক জামালপুর",R.drawable.dainik_jamalpur,"https://www.dainikjamalpur.com/"));
+
+
+        return dataList;
+
+    }
 
     }
