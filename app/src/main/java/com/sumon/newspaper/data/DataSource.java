@@ -111,15 +111,35 @@ public class DataSource {
         dataList.add(new Newspaper("আমাদের রামু",R.drawable.amader_ramu,"http://amaderramu.com/"));
         dataList.add(new Newspaper("ব্রাহ্মণবাড়িয়া ২৪",R.drawable.brahmanbaria24,"http://brahmanbaria24.com/"));
         dataList.add(new Newspaper("চাঁদপুর টাইম্‌স",R.drawable.chandpur_times,"https://chandpurtimes.com/"));
-        dataList.add(new Newspaper("কুমিল্লার কাগজ",R.drawable.comillar_kagoj,"http://www.bdallbanglanewspaper.com/comillar-kagoj/"));
-        dataList.add(new Newspaper("দৈনিক আজাদি",R.drawable.dainik_azadi,"http://www.bdallbanglanewspaper.com/dainik-azadi/"));
-        dataList.add(new Newspaper("দৈনিক কক্সবাজার",R.drawable.dainik_coxs_bazar,"http://www.bdallbanglanewspaper.com/dainik-coxsbazar/"));
+        dataList.add(new Newspaper("কুমিল্লার কাগজ",R.drawable.comillar_kagoj,"https://comillarkagoj.com/"));
+        dataList.add(new Newspaper("দৈনিক আজাদি",R.drawable.dainik_azadi,"https://dainikazadi.net/"));
+        dataList.add(new Newspaper("দৈনিক কক্সবাজার",R.drawable.dainik_coxs_bazar,"https://www.dainikcoxsbazar.com/"));
         dataList.add(new Newspaper(" লক্ষ্মীপুর ২৪",R.drawable.lakshmipur24,"https://www.lakshmipur24.com/"));
         dataList.add(new Newspaper("নোয়াখালী প্রতিদিন",R.drawable.noakhali_protidin,"http://noakhalipratidin.com.bd/"));
         dataList.add(new Newspaper("নতুন ফেনী",R.drawable.notun_feni,"https://www.natunfeni.com/"));
-        dataList.add(new Newspaper("টেকনাফ টুডে",R.drawable.teknaf_today,"http://www.bdallbanglanewspaper.com/teknaf-today/"));
-        
+        dataList.add(new Newspaper("টেকনাফ টুডে",R.drawable.teknaf_today,"https://teknaftoday.com/"));
+
         return dataList;
 
     }
+
+    public static ArrayList<Newspaper> get8(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("চাঁপাইনবাবগঞ্জ নিউজ",R.drawable.amader_ramu,"http://www.chapainawabganjnews.com/"));
+        dataList.add(new Newspaper("দৈনিক ইছামতি",R.drawable.amader_ramu,"http://ichhamoti.com/"));
+        dataList.add(new Newspaper("দৈনিক করতোয়া",R.drawable.amader_ramu,"https://www.dailykaratoa.com/"));
+        dataList.add(new Newspaper("দৈনিক প্রভাতের আলো",R.drawable.amader_ramu,"https://doinikprovateralo.com/"));
+        dataList.add(new Newspaper("দৈনিক সিরাজগঞ্জ",R.drawable.amader_ramu,"https://dainiksirajganj.com/"));
+        dataList.add(new Newspaper("দৈনিক দেশ সংবাদ",R.drawable.amader_ramu,"https://www.deshsangbad.com/"));
+        dataList.add(new Newspaper("দৈনিক গণধ্বনি প্রতিদিন",R.drawable.amader_ramu,"https://gd-protidin.com/"));
+        dataList.add(new Newspaper("নিউজ পাবনা",R.drawable.amader_ramu,"https://newspabna.com/"));
+        dataList.add(new Newspaper("সোনালী সংবাদ",R.drawable.amader_ramu,"https://sonalisangbad.com/"));
+        dataList.add(new Newspaper("সোনার দেশ",R.drawable.amader_ramu,"https://dailysonardesh.com/"));
+
+        return dataList;
+
+    }
+
+
 }
