@@ -87,7 +87,7 @@ public class DataSource {
         return dataList;
     }
 
-    public static ArrayList<Newspaper> getDhakaNews(){
+    public static ArrayList<Newspaper> get1(){
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক গাজীপুর ",R.drawable.dainik_gazipur,"http://dainikgazipur.com/"));
@@ -101,13 +101,25 @@ public class DataSource {
         dataList.add(new Newspaper("নরসিংদী টাইম্ ",R.drawable.the_narsingdi_times,"http://narsingditimes.com/"));
         dataList.add(new Newspaper("মুন্সিগঞ্জের কাগজ ",R.drawable.munshigonjer_kagoj,"https://www.munshigonjerkagoj.com/"));
 
-
-
-
         return dataList;
-
-
-
     }
 
+
+    public static ArrayList<Newspaper> get2(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("আমাদের রামু",R.drawable.amader_ramu,"http://amaderramu.com/"));
+        dataList.add(new Newspaper("ব্রাহ্মণবাড়িয়া ২৪",R.drawable.brahmanbaria24,"http://brahmanbaria24.com/"));
+        dataList.add(new Newspaper("চাঁদপুর টাইম্‌স",R.drawable.chandpur_times,"https://chandpurtimes.com/"));
+        dataList.add(new Newspaper("কুমিল্লার কাগজ",R.drawable.comillar_kagoj,"http://www.bdallbanglanewspaper.com/comillar-kagoj/"));
+        dataList.add(new Newspaper("দৈনিক আজাদি",R.drawable.dainik_azadi,"http://www.bdallbanglanewspaper.com/dainik-azadi/"));
+        dataList.add(new Newspaper("দৈনিক কক্সবাজার",R.drawable.dainik_coxs_bazar,"http://www.bdallbanglanewspaper.com/dainik-coxsbazar/"));
+        dataList.add(new Newspaper(" লক্ষ্মীপুর ২৪",R.drawable.lakshmipur24,"https://www.lakshmipur24.com/"));
+        dataList.add(new Newspaper("নোয়াখালী প্রতিদিন",R.drawable.noakhali_protidin,"http://noakhalipratidin.com.bd/"));
+        dataList.add(new Newspaper("নতুন ফেনী",R.drawable.notun_feni,"https://www.natunfeni.com/"));
+        dataList.add(new Newspaper("টেকনাফ টুডে",R.drawable.teknaf_today,"http://www.bdallbanglanewspaper.com/teknaf-today/"));
+        
+        return dataList;
+
+    }
 }
