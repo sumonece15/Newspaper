@@ -123,7 +123,7 @@ public class DataSource {
 
     }
 
-    public static ArrayList<Newspaper> get3(){
+    public static ArrayList<Newspaper> get4(){
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক কাজির বাজার",R.drawable.daily_kazirbazar,"https://kazirbazar.com/"));
@@ -143,7 +143,7 @@ public class DataSource {
     }
 
 
-    public static ArrayList<Newspaper> get4() {
+    public static ArrayList<Newspaper> get3() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক আজকের ভোলা",R.drawable.dainik_ajker_vola,"http://www.ajkerbhola.com/"));
@@ -179,7 +179,23 @@ public class DataSource {
 
     }
 
+    public static ArrayList<Newspaper> get7(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
 
+        dataList.add(new Newspaper("খুলনা টাইমস",R.drawable.khulna_times,"https://khulnatimes.com/"));
+        dataList.add(new Newspaper("সুন্দরবন টাইমস.কম",R.drawable.sundarbon_times,"https://www.sundarbontimes.com/"));
+        dataList.add(new Newspaper("দৈনিক খুলনা অঞ্চল",R.drawable.khulnanchal,"https://khulnanchal.com/"));
+        dataList.add(new Newspaper("সমাজের কথা",R.drawable.somajer_kotha,"https://samajerkatha.com/"));
+        dataList.add(new Newspaper("মেহেরপুর প্রতিদিন",R.drawable.meherpur_paratidin,"https://www.meherpurpratidin.com/"));
+        dataList.add(new Newspaper("দৈনিক আমাদের চুয়াডাঙ্গা",R.drawable.amader_chuadanga,"https://dailyamaderchuadanga.com/"));
+        dataList.add(new Newspaper("নড়াইল কন্ঠ",R.drawable.narail_kantha,"http://narailkantho.com/"));
+        dataList.add(new Newspaper("দৈনিক সুপ্রভাত সাতক্ষীরা",R.drawable.suprovat_satkhira,"https://suprovatsatkhira.com/"));
+        dataList.add(new Newspaper("দৈনিক লোকসমাজ",R.drawable.lok_somaj,"http://loksamaj.com/"));
+        dataList.add(new Newspaper("বাংলার চোখ",R.drawable.banglar_chokh,"https://dailybanglarchokh.com/"));
+
+        return dataList;
+
+    }
 
 
     }
