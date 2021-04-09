@@ -57,35 +57,43 @@ public class DivisionalNewspaperActivity extends AppCompatActivity {
     private void initFunctionality() {
         if(division == 1){
             tvTitle.setText(getResources().getString(R.string.dhaka));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getDhaka());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 2){
             tvTitle.setText(getResources().getString(R.string.chittagong));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getChittagong());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 3){
             tvTitle.setText(getResources().getString(R.string.barishal));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getBarishal());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 4){
             tvTitle.setText(getResources().getString(R.string.sylhet));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getSylhet());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 5){
             tvTitle.setText(getResources().getString(R.string.rangpur));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getRangpur());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 6){
             tvTitle.setText(getResources().getString(R.string.mymensing));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getMymensingh());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 7){
             tvTitle.setText(getResources().getString(R.string.khulna));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getKhulna());
+            mAdapter.notifyDataSetChanged();
         }
         else if(division == 8){
             tvTitle.setText(getResources().getString(R.string.rajshahi));
-            //dataList.addAll();
+            dataList.addAll(DataSource.getRajshahi());
+            mAdapter.notifyDataSetChanged();
         }
 
 

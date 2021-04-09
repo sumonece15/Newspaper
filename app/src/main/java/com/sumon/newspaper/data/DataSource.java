@@ -85,7 +85,7 @@ public class DataSource {
         return dataList;
     }
 
-    public static ArrayList<Newspaper> get1() {
+    public static ArrayList<Newspaper> getDhaka() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক গাজীপুর ", R.drawable.dainik_gazipur, "http://dainikgazipur.com/"));
@@ -103,7 +103,7 @@ public class DataSource {
     }
 
 
-    public static ArrayList<Newspaper> get2() {
+    public static ArrayList<Newspaper> getChittagong() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("আমাদের রামু", R.drawable.amader_ramu, "http://amaderramu.com/"));
@@ -122,7 +122,7 @@ public class DataSource {
     }
 
 
-    public static ArrayList<Newspaper> get3() {
+    public static ArrayList<Newspaper> getBarishal() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক আজকের ভোলা", R.drawable.dainik_ajker_vola, "http://www.ajkerbhola.com/"));
@@ -140,7 +140,7 @@ public class DataSource {
 
     }
 
-    public static ArrayList<Newspaper> get4() {
+    public static ArrayList<Newspaper> getSylhet() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক কাজির বাজার", R.drawable.daily_kazirbazar, "https://kazirbazar.com/"));
@@ -160,7 +160,7 @@ public class DataSource {
     }
 
 
-    public static ArrayList<Newspaper> get5() {
+    public static ArrayList<Newspaper> getRangpur() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("কুড়িগ্রাম লাইভ", R.drawable.kurigram_live, "https://www.kurigramlive.com/"));
@@ -179,7 +179,7 @@ public class DataSource {
 
     }
 
-    public static ArrayList<Newspaper> get6() {
+    public static ArrayList<Newspaper> getMymensingh() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("দৈনিক ময়মনসিংহ প্রতিদিন", R.drawable.dainik_mymensingh_pratidin, "https://dainikmymensinghpratidin.com/"));
@@ -198,7 +198,7 @@ public class DataSource {
 
     }
 
-    public static ArrayList<Newspaper> get7() {
+    public static ArrayList<Newspaper> getKhulna() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("খুলনা টাইমস", R.drawable.khulna_times, "https://khulnatimes.com/"));
@@ -217,7 +217,7 @@ public class DataSource {
     }
 
 
-    public static ArrayList<Newspaper> get8() {
+    public static ArrayList<Newspaper> getRajshahi() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
         dataList.add(new Newspaper("চাঁপাইনবাবগঞ্জ নিউজ", R.drawable.chapainawabganj_news, "http://www.chapainawabganjnews.com/"));
