@@ -1,5 +1,6 @@
 package com.sumon.newspaper;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -73,6 +74,9 @@ public class BanglaFragment extends Fragment {
     }
 
     private void initListener() {
+
+
+
 
     }
 }

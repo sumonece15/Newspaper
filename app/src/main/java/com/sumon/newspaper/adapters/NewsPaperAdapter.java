@@ -1,6 +1,7 @@
 package com.sumon.newspaper.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.sumon.newspaper.R;
+import com.sumon.newspaper.WebViewActivity;
 import com.sumon.newspaper.models.Newspaper;
 
 import java.util.ArrayList;
+
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.MyViewHolder> {
 
@@ -42,10 +46,22 @@ public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.MyVi
                 .load(newspaper.getCoverImage())
                 .into(holder.ivCoverImage);
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, WebViewActivity.class);
+                intent.putExtra("name",newspaper.getName());
+                intent.putExtra("link",newspaper.getLink());
+                intent.addFlags(FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(intent);
+            }
+        });
+
     }
 
     @Override
     public int getItemCount() {
+
         return dataList.size();
     }
 
