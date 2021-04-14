@@ -90,14 +90,17 @@ public class DataSource {
 
         dataList.add(new Newspaper("Bd Jobs 1", R.drawable.bd_jobs1, "https://www.bdjobs.com/"));
         dataList.add(new Newspaper("Bikroy Jobs", R.drawable.bikroy_jobs, "https://bikroy.com/bn/jobs"));
-        dataList.add(new Newspaper("Bd Jobs Mela", R.drawable.bd_jobs_mela, "https://bdjobsmela.com/"));
-        dataList.add(new Newspaper("Bd Jobs 2", R.drawable.bd_jobs2, "http://bdjobs.com.bd/"));
-        dataList.add(new Newspaper("Chakrir Khobor", R.drawable.chakrir_khobor, "https://chakrikhobor.com/"));
-        dataList.add(new Newspaper("Jobs Dot Com Dot Bd", R.drawable.jobs_dot_com_dot_bd, "http://www.job.com.bd/"));
         dataList.add(new Newspaper("Skill Dot Jobs", R.drawable.skill_dot_jobs, "https://skill.jobs/"));
+        dataList.add(new Newspaper("Bd Jobs 2", R.drawable.bd_jobs2, "http://bdjobs.com.bd/"));
         dataList.add(new Newspaper("NRB Jobs", R.drawable.nrb_jobs, "https://www.nrbjobs.com/"));
+        dataList.add(new Newspaper("Bd Career", R.drawable.bd_career, "https://bd-career.com/"));
+        dataList.add(new Newspaper("Bd Jobs Mela", R.drawable.bd_jobs_mela, "https://bdjobsmela.com/"));
+        dataList.add(new Newspaper("Chakrir Khobor 2", R.drawable.chakrir_khobor2, "https://chakrirkhobor.net/"));
         dataList.add(new Newspaper("Career Jet", R.drawable.career_jet, "https://www.careerjet.com.bd/"));
+        dataList.add(new Newspaper("Chakrir Khobor 1", R.drawable.chakrir_khobor1, "https://chakrikhobor.com/"));
+        dataList.add(new Newspaper("Jobs Dot Com Dot Bd", R.drawable.jobs_dot_com_dot_bd, "http://www.job.com.bd/"));
         dataList.add(new Newspaper("Bd Jobs Today", R.drawable.bd_jobs_today, "http://www.bdjobstoday.com/"));
+
 
 
 
