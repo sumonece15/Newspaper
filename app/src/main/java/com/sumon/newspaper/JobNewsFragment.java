@@ -74,7 +74,7 @@ public class JobNewsFragment extends Fragment {
 
     private void initFunctionality() {
 
-        mAdapter = new NewsPaperAdapter(getActivity(), DataSource.getTvNews());
+        mAdapter = new NewsPaperAdapter(getActivity(), DataSource.getJobNews());
         rvNewspaper.setAdapter(mAdapter);
 
     }
