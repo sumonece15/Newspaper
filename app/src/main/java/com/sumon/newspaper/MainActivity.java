@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new BanglaFragment(), "Bangla");
         adapter.addFragment(new EnglishFragment(), "English");
         adapter.addFragment(new TvNewsFragment(), "TV News");
+        adapter.addFragment(new JobNewsFragment(), "Job News");
         adapter.addFragment(new DivisionFragment(), "Divisional");
         viewPager.setAdapter(adapter);
     }

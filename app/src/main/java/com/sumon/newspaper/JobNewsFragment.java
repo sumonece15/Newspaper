@@ -16,15 +16,20 @@ import com.sumon.newspaper.adapters.NewsPaperAdapter;
 import com.sumon.newspaper.data.DataSource;
 import com.sumon.newspaper.utils.ItemDecoration;
 
-public class TvNewsFragment extends Fragment {
-    private RecyclerView rvNewspaper;
-    private NewsPaperAdapter mAdapter;
-    public TvNewsFragment() {
+
+public class JobNewsFragment extends Fragment {
+
+   private RecyclerView rvNewspaper;
+   private NewsPaperAdapter mAdapter;
+
+
+    public JobNewsFragment() {
         // Required empty public constructor
     }
 
-    public static TvNewsFragment newInstance(String param1, String param2) {
-        TvNewsFragment fragment = new TvNewsFragment();
+
+    public static JobNewsFragment newInstance(String param1, String param2) {
+        JobNewsFragment fragment = new JobNewsFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -32,19 +37,20 @@ public class TvNewsFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tvnews, container, false);
+        return inflater.inflate(R.layout.fragment_job_news, container, false);
     }
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
+
         super.onViewCreated(view, savedInstanceState);
 
         initVariable();
@@ -58,20 +64,24 @@ public class TvNewsFragment extends Fragment {
     }
 
     private void initView(View view) {
-
         rvNewspaper = view.findViewById(R.id.rvNewsPaper);
 
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         rvNewspaper.addItemDecoration(new ItemDecoration(2,10,false));
         rvNewspaper.setLayoutManager(layoutManager);
+
     }
 
     private void initFunctionality() {
+
         mAdapter = new NewsPaperAdapter(getActivity(), DataSource.getTvNews());
         rvNewspaper.setAdapter(mAdapter);
+
     }
 
     private void initListener() {
 
     }
+
+
 }

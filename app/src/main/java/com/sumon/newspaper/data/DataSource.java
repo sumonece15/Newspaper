@@ -85,6 +85,27 @@ public class DataSource {
         return dataList;
     }
 
+    public  static ArrayList<Newspaper> getJobNews(){
+        ArrayList<Newspaper> dataList = new ArrayList<>();
+
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+        dataList.add(new Newspaper("Bikroy Jobs", R.drawable.somoy_tv, "https://bikroy.com/bn/jobs"));
+        dataList.add(new Newspaper("Bd Jobs Mela", R.drawable.somoy_tv, "https://bdjobsmela.com/"));
+        dataList.add(new Newspaper("Bd Jobs 2", R.drawable.somoy_tv, "http://bdjobs.com.bd/"));
+        dataList.add(new Newspaper("Chakrir Khobor", R.drawable.somoy_tv, "https://chakrikhobor.com/"));
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+        dataList.add(new Newspaper("bdjobs.com", R.drawable.somoy_tv, "https://www.bdjobs.com/"));
+
+
+
+        return dataList;
+    }
+
+
+
     public static ArrayList<Newspaper> getDhaka() {
         ArrayList<Newspaper> dataList = new ArrayList<>();
 
