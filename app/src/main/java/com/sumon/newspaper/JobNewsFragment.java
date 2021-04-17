@@ -19,8 +19,8 @@ import com.sumon.newspaper.utils.ItemDecoration;
 
 public class JobNewsFragment extends Fragment {
 
-   private RecyclerView rvNewspaper;
-   private NewsPaperAdapter mAdapter;
+    private RecyclerView rvNewspaper;
+    private NewsPaperAdapter mAdapter;
 
 
     public JobNewsFragment() {
@@ -49,7 +49,7 @@ public class JobNewsFragment extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 
         super.onViewCreated(view, savedInstanceState);
 
@@ -66,8 +66,8 @@ public class JobNewsFragment extends Fragment {
     private void initView(View view) {
         rvNewspaper = view.findViewById(R.id.rvNewsPaper);
 
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
-        rvNewspaper.addItemDecoration(new ItemDecoration(2,10,false));
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity(), 2);
+        rvNewspaper.addItemDecoration(new ItemDecoration(2, 10, false));
         rvNewspaper.setLayoutManager(layoutManager);
 
     }
