@@ -1,51 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".DivisionFragment"
-    android:fillViewport="true"
     android:background="@drawable/bg_main"
-    android:fitsSystemWindows="true">
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".DivisionFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_marginTop="10dp">
+            android:weightSum="1">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvDhaka"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
-                app:cardCornerRadius="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dhaka"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/dhaka"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvChittagong"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
@@ -53,27 +56,29 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/chittagong"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/chittagong"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_marginTop="20dp">
+            android:weightSum="1">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvSylhet"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
@@ -81,143 +86,149 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sylhet"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/sylhet"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvBarishal"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                app:cardCornerRadius="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/barishal"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/barishal"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_marginTop="20dp">
+            android:weightSum="1">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvRajshahi"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
-                app:cardBackgroundColor="@color/colorSkyBlueLight"
                 android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
+                app:cardBackgroundColor="@color/colorSkyBlueLight"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rajshahi"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/rajshahi"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvKhulna"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                app:cardCornerRadius="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/khulna"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/khulna"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_marginTop="20dp">
+            android:weightSum="1">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvRangpur"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
-                app:cardCornerRadius="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rangpur"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/rangpur"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvMymensinh"
                 android:layout_width="0dp"
-                android:layout_weight="0.5"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                app:cardCornerRadius="10dp"
+                android:layout_weight="0.5"
                 app:cardBackgroundColor="@color/colorSkyBlueLight"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mymensing"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorMainBg"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/arial_nova_bold"
-                    android:layout_gravity="center"/>
+                    android:text="@string/mymensing"
+                    android:textColor="@color/colorMainBg"
+                    android:textSize="25sp" />
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
-        <com.google.android.gms.ads.AdView
-            xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            ads:adSize="BANNER"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-        </com.google.android.gms.ads.AdView>
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
 
     </LinearLayout>
 
