@@ -1,6 +1,5 @@
-package com.sumon.newspaper;
+package com.sumon.newspaper.utils;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -13,9 +12,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.sumon.newspaper.R;
 import com.sumon.newspaper.adapters.NewsPaperAdapter;
 import com.sumon.newspaper.data.DataSource;
-import com.sumon.newspaper.utils.ItemDecoration;
 
 public class BanglaFragment extends Fragment {
 
