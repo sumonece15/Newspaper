@@ -1,4 +1,4 @@
-package com.sumon.newspaper;
+package com.sumon.newspaper.utils;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sumon.newspaper.utils.DivisionalNewspaperActivity;
+import com.sumon.newspaper.R;
 
 public class DivisionFragment extends Fragment {
 

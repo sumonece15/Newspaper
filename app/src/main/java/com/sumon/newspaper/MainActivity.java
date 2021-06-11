@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.google.android.material.tabs.TabLayout;
 import com.sumon.newspaper.adapters.ViewPagerAdapter;
 import com.sumon.newspaper.utils.BanglaFragment;
+import com.sumon.newspaper.utils.DivisionFragment;
 
 public class MainActivity extends AppCompatActivity {
     private TabLayout tabLayout;
