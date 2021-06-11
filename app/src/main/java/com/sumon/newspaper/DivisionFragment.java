@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.sumon.newspaper.utils.DivisionalNewspaperActivity;
+
 public class DivisionFragment extends Fragment {
 
     private CardView cvDhaka, cvChittagong, cvBarishal, cvSylhet, cvRangpur, cvRajshahi, cvMymensing, cvKhulna;
@@ -122,7 +124,7 @@ public class DivisionFragment extends Fragment {
     }
 
     private void gotoDivisionalNewspaper(int division){
-        Intent intent = new Intent(getActivity(),DivisionalNewspaperActivity.class);
+        Intent intent = new Intent(getActivity(), DivisionalNewspaperActivity.class);
         intent.putExtra("division",division);
         startActivity(intent);
     }

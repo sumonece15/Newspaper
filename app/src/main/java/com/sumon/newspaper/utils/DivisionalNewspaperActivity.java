@@ -1,4 +1,4 @@
-package com.sumon.newspaper;
+package com.sumon.newspaper.utils;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.sumon.newspaper.R;
 import com.sumon.newspaper.adapters.NewsPaperAdapter;
 import com.sumon.newspaper.data.DataSource;
 import com.sumon.newspaper.models.Newspaper;

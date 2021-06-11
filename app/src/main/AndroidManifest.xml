@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Newspaper">
         <activity android:name=".WebViewActivity"></activity>
-        <activity android:name=".DivisionalNewspaperActivity" />
+        <activity android:name=".utils.DivisionalNewspaperActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
