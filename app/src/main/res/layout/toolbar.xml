@@ -16,7 +16,7 @@
             android:padding="10dp">
 
             <ImageView
-                android:layout_width="41dp"
+                android:layout_width="42dp"
                 android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
