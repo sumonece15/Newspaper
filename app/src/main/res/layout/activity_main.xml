@@ -27,7 +27,7 @@
         app:tabIndicatorGravity="stretch"
         app:tabMode="auto"
         app:tabPaddingEnd="25dp"
-        app:tabPaddingStart="21dp"
+        app:tabPaddingStart="22dp"
         app:tabRippleColor="@null"
         app:tabSelectedTextColor="@color/black"
         app:tabTextAppearance="@style/TabTextAppearance"
